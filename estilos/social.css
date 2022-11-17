@@ -1,0 +1,51 @@
+@charset "UTF-8";
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+a{
+    display: block;
+    background-color: darkred;
+    color: antiquewhite; 
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+img {
+    width: 100vw; 
+}
+
+a:hover{
+    background-color: red;
+}
+
+#twiter{
+    background-color: rgb(8, 152, 230);
+}
+#twiter:hover{
+    background-color: rgb(0, 94, 255);
+}
+
+#facebook{
+    background-color: rgb(18, 65, 219);
+}
+#facebook:hover{
+    background-color: rgb(0, 94, 255);
+}
+
+#github{
+    background-color: black;
+}
+#github:hover{
+    background-color: grey;
+}
